@@ -7,7 +7,6 @@ data = {}
 choice = int(input('(1) RU or (2) US >>> '))
 def Choice():
     if choice == 1:
-        data.clear()
         data['[Бан]'] = zapros['isBanned']
         data['[Ник]'] = zapros['name']
         data['[Дисплей ник]'] = zapros['displayName']
@@ -15,7 +14,6 @@ def Choice():
         data['[Когда был создан]'] = zapros['created']
         data['[Имеит-ли бейдж вереф]'] = zapros['hasVerifiedBadge']
     elif choice == 2:
-        data.clear()
         data['[Ban]'] = zapros['isBanned']
         data['[Name]'] = zapros['name']
         data['[Display Name]'] = zapros['displayName']
